@@ -1,0 +1,11 @@
+@layer framework.important, framework.bootstrap, framework.local;
+@layer framework, base, components, utilities;
+
+@layer framework.local {
+	/* most of our normal framework overrides can live here */
+}
+
+@layer framework.important {
+	/* add !important styles in a lower layer */
+	/* to override any !important framework styles */
+}
